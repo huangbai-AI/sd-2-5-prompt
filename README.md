@@ -106,7 +106,7 @@ B面对A举盾格挡，碎屑继续沿A到B的方向飞散。
 克隆仓库后，把 Skill 目录放到你的 Skills 目录中：
 
 ```bash
-git clone https://github.com/CCCIRCCCLE715/sd-2-5-prompt.git
+git clone https://github.com/huangbai-AI/sd-2-5-prompt.git
 cp -R sd-2-5-prompt/skills/sd-2-5-prompt ~/.codex/skills/
 ```
 
