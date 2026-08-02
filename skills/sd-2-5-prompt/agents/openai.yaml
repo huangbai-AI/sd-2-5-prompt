@@ -1,0 +1,4 @@
+interface:
+  display_name: "SD 2.5 Prompt"
+  short_description: "用五段式快速生成完整的 SD 2.5 视频提示词"
+  default_prompt: "使用 $sd-2-5-prompt，按主体、风格、时间线、BGM、限制五部分，把我的创意整理成可直接生成的视频提示词。"

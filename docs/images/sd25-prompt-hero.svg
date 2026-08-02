@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+  <title id="title">SD 2.5 Prompt</title>
+  <desc id="desc">用主体、风格、时间线、BGM、限制五段式快速编写视频提示词</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#111d3c"/>
+      <stop offset="1" stop-color="#35136a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#62e6ff"/>
+      <stop offset="0.5" stop-color="#9b7cff"/>
+      <stop offset="1" stop-color="#ff6fb7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1600" height="720" rx="40" fill="url(#bg)"/>
+  <circle cx="1340" cy="110" r="220" fill="#7a4cff" opacity="0.14" filter="url(#glow)"/>
+  <circle cx="230" cy="690" r="280" fill="#16d9e3" opacity="0.1" filter="url(#glow)"/>
+  <g opacity="0.12" stroke="#9bdfff">
+    <path d="M0 120H1600M0 240H1600M0 360H1600M0 480H1600M0 600H1600"/>
+    <path d="M160 0V720M320 0V720M480 0V720M640 0V720M800 0V720M960 0V720M1120 0V720M1280 0V720M1440 0V720"/>
+  </g>
+  <g transform="translate(105 104)">
+    <rect x="0" y="0" width="310" height="48" rx="24" fill="#ffffff" opacity="0.1" stroke="#82e7ff"/>
+    <circle cx="28" cy="24" r="7" fill="#62e6ff"/>
+    <text x="49" y="31" fill="#dff9ff" font-family="Arial, PingFang SC, sans-serif" font-size="22" font-weight="700">VIDEO PROMPT SKILL</text>
+    <text x="0" y="146" fill="#ffffff" font-family="Arial, PingFang SC, sans-serif" font-size="92" font-weight="800" letter-spacing="-3">SD 2.5 Prompt</text>
+    <rect x="0" y="173" width="800" height="8" rx="4" fill="url(#accent)"/>
+    <text x="0" y="238" fill="#bed3ee" font-family="Arial, PingFang SC, sans-serif" font-size="34">把复杂的视频创意，压缩成五段清晰指令</text>
+  </g>
+  <g transform="translate(104 428)" font-family="Arial, PingFang SC, sans-serif" font-weight="700">
+    <g><rect width="240" height="102" rx="25" fill="#102e48" stroke="#62e6ff" stroke-width="2"/><text x="120" y="62" text-anchor="middle" fill="#dffaff" font-size="32">主体</text></g>
+    <g transform="translate(270 0)"><rect width="240" height="102" rx="25" fill="#212650" stroke="#8da0ff" stroke-width="2"/><text x="120" y="62" text-anchor="middle" fill="#eef0ff" font-size="32">风格</text></g>
+    <g transform="translate(540 0)"><rect width="240" height="102" rx="25" fill="#302157" stroke="#b38aff" stroke-width="2"/><text x="120" y="62" text-anchor="middle" fill="#f3eaff" font-size="32">时间线</text></g>
+    <g transform="translate(810 0)"><rect width="240" height="102" rx="25" fill="#48204f" stroke="#ef82d4" stroke-width="2"/><text x="120" y="62" text-anchor="middle" fill="#ffe9fb" font-size="32">BGM</text></g>
+    <g transform="translate(1080 0)"><rect width="240" height="102" rx="25" fill="#55213f" stroke="#ff7fae" stroke-width="2"/><text x="120" y="62" text-anchor="middle" fill="#ffeaf1" font-size="32">限制</text></g>
+  </g>
+  <g transform="translate(104 592)" font-family="Arial, PingFang SC, sans-serif">
+    <rect width="1320" height="3" rx="2" fill="#ffffff" opacity="0.18"/>
+    <rect width="980" height="3" rx="2" fill="url(#accent)"/>
+    <circle cx="0" cy="1.5" r="9" fill="#62e6ff"/><circle cx="330" cy="1.5" r="9" fill="#8da0ff"/><circle cx="660" cy="1.5" r="9" fill="#b38aff"/><circle cx="980" cy="1.5" r="9" fill="#ef82d4"/>
+    <text x="0" y="55" fill="#8fa8c5" font-size="22">15 秒 / 30 秒 · 原片反推 · 产品广告 · 动作场面 · 多模态参考</text>
+  </g>
+</svg>

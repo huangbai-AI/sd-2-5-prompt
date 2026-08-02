@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">SD 2.5 五段式提示词公式</title>
+  <desc id="desc">主体加风格加时间线加BGM加限制，得到可生成的视频提示词</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f9ff"/><stop offset="1" stop-color="#eef1ff"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#374268" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="1600" height="560" rx="34" fill="url(#bg2)"/>
+  <text x="800" y="82" text-anchor="middle" fill="#15203a" font-family="Arial, PingFang SC, sans-serif" font-size="44" font-weight="800">一条好提示词，只需要五部分</text>
+  <text x="800" y="125" text-anchor="middle" fill="#66718f" font-family="Arial, PingFang SC, sans-serif" font-size="22">先讲清画面，再讲清时间；音乐负责节奏，限制负责稳定</text>
+  <g transform="translate(70 180)" font-family="Arial, PingFang SC, sans-serif" filter="url(#shadow)">
+    <g><rect width="255" height="230" rx="28" fill="#e6fbff" stroke="#38c9e8" stroke-width="3"/><circle cx="45" cy="43" r="24" fill="#38c9e8"/><text x="45" y="51" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">1</text><text x="128" y="92" text-anchor="middle" fill="#12394b" font-size="34" font-weight="800">主体</text><text x="128" y="137" text-anchor="middle" fill="#527282" font-size="20">谁 · 在哪 · 做什么</text><text x="128" y="171" text-anchor="middle" fill="#527282" font-size="20">人物 / 产品 / 场景</text></g>
+    <text x="278" y="126" text-anchor="middle" fill="#9aa4bc" font-size="38">+</text>
+    <g transform="translate(300 0)"><rect width="255" height="230" rx="28" fill="#eef0ff" stroke="#7b82f6" stroke-width="3"/><circle cx="45" cy="43" r="24" fill="#7b82f6"/><text x="45" y="51" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">2</text><text x="128" y="92" text-anchor="middle" fill="#262b63" font-size="34" font-weight="800">风格</text><text x="128" y="137" text-anchor="middle" fill="#666b95" font-size="20">时长 · 画幅 · 质感</text><text x="128" y="171" text-anchor="middle" fill="#666b95" font-size="20">光线 / 色彩 / 镜头</text></g>
+    <text x="578" y="126" text-anchor="middle" fill="#9aa4bc" font-size="38">+</text>
+    <g transform="translate(600 0)"><rect width="255" height="230" rx="28" fill="#f4edff" stroke="#a66ff2" stroke-width="3"/><circle cx="45" cy="43" r="24" fill="#a66ff2"/><text x="45" y="51" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">3</text><text x="128" y="92" text-anchor="middle" fill="#47256d" font-size="34" font-weight="800">时间线</text><text x="128" y="137" text-anchor="middle" fill="#76548d" font-size="20">动作 · 运镜 · 落点</text><text x="128" y="171" text-anchor="middle" fill="#76548d" font-size="20">从 0 秒覆盖到结尾</text></g>
+    <text x="878" y="126" text-anchor="middle" fill="#9aa4bc" font-size="38">+</text>
+    <g transform="translate(900 0)"><rect width="255" height="230" rx="28" fill="#fff0f8" stroke="#e765ae" stroke-width="3"/><circle cx="45" cy="43" r="24" fill="#e765ae"/><text x="45" y="51" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">4</text><text x="128" y="92" text-anchor="middle" fill="#652047" font-size="34" font-weight="800">BGM</text><text x="128" y="137" text-anchor="middle" fill="#915b79" font-size="20">类型 · 速度 · 乐器</text><text x="128" y="171" text-anchor="middle" fill="#915b79" font-size="20">节拍 / 音效 / 对白</text></g>
+    <text x="1178" y="126" text-anchor="middle" fill="#9aa4bc" font-size="38">+</text>
+    <g transform="translate(1200 0)"><rect width="255" height="230" rx="28" fill="#fff0f0" stroke="#f06c78" stroke-width="3"/><circle cx="45" cy="43" r="24" fill="#f06c78"/><text x="45" y="51" text-anchor="middle" fill="#fff" font-size="22" font-weight="800">5</text><text x="128" y="92" text-anchor="middle" fill="#6c2930" font-size="34" font-weight="800">限制</text><text x="128" y="137" text-anchor="middle" fill="#945b61" font-size="20">身份 · 产品 · 物理</text><text x="128" y="171" text-anchor="middle" fill="#945b61" font-size="20">只写 3—8 个风险</text></g>
+  </g>
+  <rect x="380" y="457" width="840" height="64" rx="32" fill="#17233f"/>
+  <text x="800" y="499" text-anchor="middle" fill="#fff" font-family="Arial, PingFang SC, sans-serif" font-size="25" font-weight="700">简单场景保持简洁 · 复杂动作才补路径、来向和落点</text>
+</svg>
