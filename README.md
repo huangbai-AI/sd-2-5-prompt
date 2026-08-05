@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="skills/sd-2-5-prompt/SKILL.md"><img alt="Skill" src="https://img.shields.io/badge/Skill-SD%202.5%20Prompt-7257ff?style=flat-square" /></a>
-  <a href="skills/sd-2-5-prompt/references/examples.md"><img alt="Examples" src="https://img.shields.io/badge/完整案例-10%20个-ef5da8?style=flat-square" /></a>
+  <a href="skills/sd-2-5-prompt/references/examples.md"><img alt="Examples" src="https://img.shields.io/badge/真实案例-15%20个-ef5da8?style=flat-square" /></a>
   <img alt="Language" src="https://img.shields.io/badge/语言-中文-23b6c7?style=flat-square" />
   <img alt="Structure" src="https://img.shields.io/badge/结构-五段式-ff7b72?style=flat-square" />
 </p>
@@ -67,22 +67,24 @@ SD 2.5 Prompt 是一套面向 Seedance 2.5 / SD 2.5 视频生成的实用 Skill�
 
 完整填空模板见 [五段式公式](skills/sd-2-5-prompt/references/formula.md)。
 
-## 10 个完整参考案例
+## 15 个真实参考案例
 
-| # | 案例 | 时长 | 适合学习 |
-|---:|---|:---:|---|
-| 01 | 夏日气泡饮料广告 | 15s | 产品钩子、感官微距、群像高潮 |
-| 02 | 动感机械键盘广告 | 15s | 快速运镜、机械结构、节拍同步 |
-| 03 | 女孩手工做面 | 15s | 美食动作、中文台词、蒸汽质感 |
-| 04 | 双人食物魔法对战 | 30s | 攻击因果、换位、空间连续性 |
-| 05 | 城市跑鞋追逐 | 15s | 追逐路线、低机位、动作落点 |
-| 06 | 香水液体雕塑广告 | 15s | 液体物理、遮挡转场、奢华质感 |
-| 07 | 无线耳机一镜到底 | 15s | 连续摄影机路线、声音空间变化 |
-| 08 | 未来折叠屏设备广告 | 15s | 产品结构稳定、机械运动、屏幕匹配 |
-| 09 | 沙漠水境护肤精华广告 | 15s | 宏微观切换、液滴扩散、材质表现 |
-| 10 | 微型咖啡世界冒险 | 30s | 微缩世界、连续动作、冒险节奏 |
+| # | 案例 | 适合学习 |
+|---:|---|---|
+| 01 | 键盘高质感 TVC 广告 | 产品连续性、结构拆解、声音节奏 |
+| 02 | 麻将厨房短片 | 叙事动作、角色稳定、自然转场 |
+| 03 | 女生举枪镜头 | 微表情、手持镜头、情绪递进 |
+| 04 | 知识讲解动画 | 版式动效、横版构图、无缝转场 |
+| 05 | KPOP 女团 30 秒 MV | 多图片素材分工、角色与场景锁定 |
+| 06 | 后期炫酷效果 | 后期特效、音乐卡点、主体保持 |
+| 07—09 | 圣托里尼 / 电脑透明 / 去背景 | 局部智能编辑 |
+| 10 | 耳机核桃打架视频 | 多角色动作、物理关系、叙事节奏 |
+| 11 | 翻译口播效果 | 口播翻译编辑 |
+| 12—13 | 视频复刻 | 参考视频、人物替换、创意保留 |
+| 14 | Huang Bai 2.5 科技品牌宣传动画 | UI 动效、规模化生成、文字约束 |
+| 15 | 鼠标高端 TVC 广告 | 产品广告、运镜触发、材质稳定 |
 
-查看 [10 个完整案例](skills/sd-2-5-prompt/references/examples.md)，每个都包含主体、风格、完整时间线、BGM 和限制，可直接复制后改写。
+查看 [15 个真实案例](skills/sd-2-5-prompt/references/examples.md)。案例保留原始提示词；含素材引用时，上传自己的素材后再替换引用。
 
 ## 复杂动作只多加一条
 
@@ -149,7 +151,7 @@ sd-2-5-prompt/
     ├── agents/openai.yaml       # Skill 展示信息
     ├── references/
     │   ├── formula.md           # 五段式模板
-    │   ├── examples.md          # 10 个完整案例
+    │   ├── examples.md          # 15 个真实案例
     │   └── modes.md             # 反推、延长、一镜到底等模式
     └── scripts/check_prompt.py  # 提示词检查器
 ```
